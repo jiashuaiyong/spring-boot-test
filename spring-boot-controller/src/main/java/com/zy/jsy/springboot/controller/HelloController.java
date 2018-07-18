@@ -5,9 +5,7 @@ import com.zy.jsy.springbootcommon.contants.Constants;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import java.util.HashMap;
-import java.util.Map;
 
 /**
  * springBoot 测试控制器
@@ -34,6 +32,10 @@ public class HelloController {
         return languageService.queryLanguageCount();
     }
 
+    /**
+     * 获取xml中配置的bean
+     * @return
+     */
     @RequestMapping("xmlTest")
     public String xmlTest(){
         return String.valueOf(rewardMap.get(1));
