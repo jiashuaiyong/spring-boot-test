@@ -6,6 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * springBoot 测试控制器
  */
@@ -14,6 +17,8 @@ public class HelloController {
 
     @Autowired
     private LanguageService languageService;
+    @Autowired
+    private HashMap<Integer,Integer> rewardMap;
 
     @RequestMapping("/hello")
     public String hello(){
@@ -27,6 +32,11 @@ public class HelloController {
     @RequestMapping("/languageCount")
     public String languageCount(){
         return languageService.queryLanguageCount();
+    }
+
+    @RequestMapping("xmlTest")
+    public String xmlTest(){
+        return String.valueOf(rewardMap.get(1));
     }
 
 }

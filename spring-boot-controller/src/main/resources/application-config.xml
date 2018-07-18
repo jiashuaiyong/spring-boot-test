@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="rewardMap" class="java.util.HashMap">
+        <constructor-arg>
+            <map key-type="java.lang.Integer" value-type="java.lang.Integer">
+                <entry key= "1" value="5" />
+                <entry key= "2" value="2" />
+                <entry key= "3" value="13" />
+                <entry key= "4" value="16" />
+            </map>
+        </constructor-arg>
+    </bean>
+
+</beans>
