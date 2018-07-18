@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.zy.jsy</groupId>
+    <artifactId>spring-boot-test</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>spring-boot-controller</module>
+        <module>spring-boot-service</module>
+        <module>spring-boot-common</module>
+        <module>spring-boot-dao</module>
+        <module>spring-boot-domain</module>
+    </modules>
+
+    <packaging>pom</packaging>
+
+    <properties>
+        <module.version>0.0.1-SNAPSHOT</module.version>
+    </properties>
+    <dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>com.zy.jsy</groupId>
+            <artifactId>spring-boot-controller</artifactId>
+            <version>${module.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zy.jsy</groupId>
+            <artifactId>spring-boot-service</artifactId>
+            <version>${module.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zy.jsy</groupId>
+            <artifactId>spring-boot-dao</artifactId>
+            <version>${module.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zy.jsy</groupId>
+            <artifactId>spring-boot-common</artifactId>
+            <version>${module.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.zy.jsy</groupId>
+            <artifactId>spring-boot-domain</artifactId>
+            <version>${module.version}</version>
+        </dependency>
+
+
+    </dependencies>
+    </dependencyManagement>
+
+
+</project>
