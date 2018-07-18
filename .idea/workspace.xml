@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="450e677d-f505-4232-bfdc-d76c383cf314" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/config/BeanConfigService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zy/jsy/springbootcommon/SpringBootCommonApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-common/src/main/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-dao/src/main/java/com/zy/jsy/springbootdao/SpringBootDaoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-dao/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-domain/src/main/java/com/zy/jsy/springbootdomain/SpringBootDomainApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-domain/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/SpringBootServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-service/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/spring-boot-common/target/" />
@@ -47,25 +40,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-65">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="425">
+              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#591#592#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
+                <element signature="e#991#992#0" expanded="true" />
                 <element signature="e#1075#1076#0" expanded="true" />
                 <element signature="e#1130#1131#0" expanded="true" />
+                <element signature="e#1371#1372#0" expanded="true" />
+                <element signature="e#1410#1411#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mvnw" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-common/mvnw">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="BeanConfigService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/config/BeanConfigService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#359#368#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="SpringBootControllerApplication.java" pinned="false" current-in-tab="false">
@@ -132,8 +139,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -165,6 +172,7 @@
         <option value="$PROJECT_DIR$/spring-boot-controller/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-controller/src/main/resources/application-config.xml" />
         <option value="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/SpringBootControllerApplication.java" />
+        <option value="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/config/BeanConfigService.java" />
         <option value="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java" />
       </list>
     </option>
@@ -244,10 +252,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="352" />
+    <option name="y" value="382" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -418,6 +426,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-boot-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -439,7 +457,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -545,7 +563,7 @@
       <updated>1531886504053</updated>
       <workItem from="1531886507919" duration="2326000" />
       <workItem from="1531890124754" duration="5827000" />
-      <workItem from="1531897547749" duration="2346000" />
+      <workItem from="1531897547749" duration="7123000" />
     </task>
     <task id="LOCAL-00001" summary="增加xml解析">
       <created>1531899552293</created>
@@ -554,18 +572,26 @@
       <option name="project" value="LOCAL" />
       <updated>1531899552293</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="删除其他module中的SpingBootControllerApplication类以及配置">
+      <created>1531899966111</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1531899966111</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10499000" />
+    <option name="totallyTimeSpent" value="15276000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="352" y="382" width="1346" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50226927" side_tool="true" weight="0.439523" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.13691376" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.07931571" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -573,7 +599,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4977307" visible="true" weight="0.29642248" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4977307" visible="true" weight="0.028248588" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32993197" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -584,7 +610,7 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.75340396" weight="0.21465077" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.11394558" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24583964" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2511664" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32980332" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -639,7 +665,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加xml解析" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加xml解析" />
+    <MESSAGE value="删除其他module中的SpingBootControllerApplication类以及配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除其他module中的SpingBootControllerApplication类以及配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -730,10 +757,16 @@
           <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
             <element signature="e#1075#1076#0" expanded="true" />
             <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#1371#1372#0" expanded="true" />
+            <element signature="e#1410#1411#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -858,22 +891,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/mvnw">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/config/BeanConfigService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="226">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#359#368#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common/mvnw">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#1371#1372#0" expanded="true" />
+            <element signature="e#1410#1411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
