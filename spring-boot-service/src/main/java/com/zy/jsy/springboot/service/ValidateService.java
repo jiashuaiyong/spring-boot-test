@@ -5,6 +5,7 @@ import com.zy.jsy.springbootcommon.exception.AppRuntimeException;
 import com.zy.jsy.springbootcommon.utils.DV;
 import org.springframework.util.StringUtils;
 
+import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 
 public class ValidateService {
@@ -16,7 +17,7 @@ public class ValidateService {
     }
 
     //解析入口
-    public static void volidate(Object object) throws Exception {
+    public static void validate(Object object) throws Exception {
         //获取object的类型
         Class<? extends Object> classzz = object.getClass();
         //获取该类型声明的成员
@@ -26,7 +27,7 @@ public class ValidateService {
             //对于private私有化的成员变量，通过setAccessible来修改访问权限
             field.setAccessible(true);
             //开始对变量检验
-
+            validateField(field,object);
             //重新设置为私有权限
             field.setAccessible(false);
         }
@@ -40,7 +41,13 @@ public class ValidateService {
         Object value;
 
         //获取对象的成员注解
-        dv = field.getAnnotation(DV.class);
+        if (field.isAnnotationPresent(DV.class)){
+            dv = field.getAnnotation(DV.class);
+        }
+/*        Annotation[] annotations = field.getDeclaredAnnotations();
+        if (null != annotations){
+            dv = (DV) annotations[0];
+        }*/
         value = field.get(object);
 
         if (null == dv){
