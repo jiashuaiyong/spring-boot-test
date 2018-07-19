@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="450e677d-f505-4232-bfdc-d76c383cf314" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-controller/src/test/java/com/zy/jsy/springboot/controller/HelloControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/SpringBootControllerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/SpringBootControllerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/config/BeanConfigService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/config/BeanConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zy/jsy/springbootcommon/exception/AppRuntimeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zy/jsy/springbootcommon/utils/DV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/ValidateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/spring-boot-common/target/" />
@@ -23,20 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="19" column="44" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="317">
+              <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#628#629#0" expanded="true" />
@@ -47,18 +38,48 @@
                 <element signature="e#991#992#0" expanded="true" />
                 <element signature="e#1075#1076#0" expanded="true" />
                 <element signature="e#1130#1131#0" expanded="true" />
-                <element signature="e#1371#1372#0" expanded="true" />
                 <element signature="e#1410#1411#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloControllerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DV.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zy/jsy/springbootcommon/utils/DV.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidateService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/ValidateService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="717">
+              <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppRuntimeException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zy/jsy/springbootcommon/exception/AppRuntimeException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3197" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloControllerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/test/java/com/zy/jsy/springboot/controller/HelloControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="241">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#357#358#0" expanded="true" />
@@ -103,24 +124,6 @@
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1025">
-              <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-domain/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-controller/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
@@ -145,8 +148,9 @@
       <list>
         <option value="Kotlin File" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -181,6 +185,9 @@
         <option value="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/config/BeanConfigService.java" />
         <option value="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/SpringBootControllerApplication.java" />
         <option value="$PROJECT_DIR$/spring-boot-controller/src/test/java/com/zy/jsy/springboot/controller/HelloControllerTest.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zy/jsy/springbootcommon/utils/DV.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zy/jsy/springbootcommon/exception/AppRuntimeException.java" />
+        <option value="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/ValidateService.java" />
       </list>
     </option>
   </component>
@@ -259,10 +266,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-16" />
-    <option name="y" value="144" />
+    <option name="x" value="-100" />
+    <option name="y" value="373" />
     <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="height" value="720" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -306,97 +313,21 @@
             <path>
               <item name="spring-boot-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-controller" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-controller" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootcommon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-controller" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-test" type="b2602c69:ProjectViewProjectNode" />
@@ -474,6 +405,9 @@
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zy.jsy.springbootcommon" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zy.jsy.springbootcommon.exception" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -607,7 +541,7 @@
       <updated>1531886504053</updated>
       <workItem from="1531886507919" duration="2326000" />
       <workItem from="1531890124754" duration="5827000" />
-      <workItem from="1531897547749" duration="10039000" />
+      <workItem from="1531897547749" duration="14954000" />
     </task>
     <task id="LOCAL-00001" summary="增加xml解析">
       <created>1531899552293</created>
@@ -630,11 +564,32 @@
       <option name="project" value="LOCAL" />
       <updated>1531910112451</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加单元测试">
+      <created>1531965113267</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1531965113267</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="HelloControllerTest_languageCount - 2018.07.19 at 09h 48m 51s.xml">
+      <configuration name="HelloControllerTest.languageCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloControllerTest_languageCount - 2018.07.19 at 09h 49m 25s.xml">
+      <configuration name="HelloControllerTest.languageCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloControllerTest_languageCount - 2018.07.19 at 09h 50m 19s.xml">
+      <configuration name="HelloControllerTest.languageCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloControllerTest_languageCount - 2018.07.19 at 09h 51m 06s.xml">
+      <configuration name="HelloControllerTest.languageCount" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18192000" />
+    <option name="totallyTimeSpent" value="23107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -650,7 +605,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4977307" visible="true" weight="0.34412265" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4977307" weight="0.34412265" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32879046" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -658,10 +613,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.75340396" weight="0.21465077" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.75340396" visible="true" weight="0.28449744" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.11394558" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14145234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16641453" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32980332" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -718,7 +673,8 @@
     <MESSAGE value="增加xml解析" />
     <MESSAGE value="删除其他module中的SpingBootControllerApplication类以及配置" />
     <MESSAGE value="代码中自定义bean" />
-    <option name="LAST_COMMIT_MESSAGE" value="代码中自定义bean" />
+    <MESSAGE value="增加单元测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加单元测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -728,8 +684,14 @@
           <line>14</line>
           <properties />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-controller/src/test/java/com/zy/jsy/springboot/controller/HelloControllerTest.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -816,7 +778,6 @@
             <element signature="e#991#992#0" expanded="true" />
             <element signature="e#1075#1076#0" expanded="true" />
             <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1371#1372#0" expanded="true" />
             <element signature="e#1410#1411#0" expanded="true" />
           </folding>
         </state>
@@ -955,10 +916,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/test/java/com/zy/jsy/springboot/controller/HelloControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="317">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#628#629#0" expanded="true" />
@@ -969,20 +942,32 @@
             <element signature="e#991#992#0" expanded="true" />
             <element signature="e#1075#1076#0" expanded="true" />
             <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1371#1372#0" expanded="true" />
             <element signature="e#1410#1411#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/test/java/com/zy/jsy/springboot/controller/HelloControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zy/jsy/springbootcommon/utils/DV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="103">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zy/jsy/springbootcommon/exception/AppRuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3197" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/ValidateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
