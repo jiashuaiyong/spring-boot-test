@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="450e677d-f505-4232-bfdc-d76c383cf314" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/config/BeanConfigService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-controller/src/test/java/com/zy/jsy/springboot/controller/HelloControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/SpringBootControllerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/SpringBootControllerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/config/BeanConfigService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/config/BeanConfigService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/spring-boot-common/target/" />
@@ -23,15 +24,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
-              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-common/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
@@ -40,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state relative-caret-position="157">
+              <caret line="19" column="44" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="19" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#628#629#0" expanded="true" />
@@ -62,11 +54,25 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="HelloControllerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/test/java/com/zy/jsy/springboot/controller/HelloControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BeanConfigService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/config/BeanConfigService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            <state relative-caret-position="125">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#359#368#0" expanded="true" />
@@ -78,11 +84,10 @@
       <file leaf-file-name="SpringBootControllerApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/SpringBootControllerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="175">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
               <folding>
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,6 +146,7 @@
         <option value="Kotlin File" />
         <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -171,9 +177,10 @@
         <option value="$PROJECT_DIR$/spring-boot-dao/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-controller/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-controller/src/main/resources/application-config.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/SpringBootControllerApplication.java" />
-        <option value="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/config/BeanConfigService.java" />
         <option value="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/config/BeanConfigService.java" />
+        <option value="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/SpringBootControllerApplication.java" />
+        <option value="$PROJECT_DIR$/spring-boot-controller/src/test/java/com/zy/jsy/springboot/controller/HelloControllerTest.java" />
       </list>
     </option>
   </component>
@@ -252,8 +259,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="352" />
-    <option name="y" value="382" />
+    <option name="x" value="-16" />
+    <option name="y" value="144" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -452,6 +459,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -460,8 +469,14 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.zy.jsy.springboot.controller" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zy.jsy.springbootcommon" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -476,9 +491,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootControllerApplication">
+  <component name="RunManager" selected="JUnit.HelloControllerTest.languageCount">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="HelloControllerTest.languageCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-controller" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zy.jsy.springboot.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zy.jsy.springboot.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.zy.jsy.springboot.controller.HelloControllerTest" />
+      <option name="METHOD_NAME" value="languageCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -549,7 +587,13 @@
       <item itemvalue="Spring Boot.SpringBootCommonApplication" />
       <item itemvalue="Spring Boot.SpringBootDomainApplication" />
       <item itemvalue="Spring Boot.SpringBootServiceApplication (1)" />
+      <item itemvalue="JUnit.HelloControllerTest.languageCount" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HelloControllerTest.languageCount" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -563,7 +607,7 @@
       <updated>1531886504053</updated>
       <workItem from="1531886507919" duration="2326000" />
       <workItem from="1531890124754" duration="5827000" />
-      <workItem from="1531897547749" duration="7123000" />
+      <workItem from="1531897547749" duration="10039000" />
     </task>
     <task id="LOCAL-00001" summary="增加xml解析">
       <created>1531899552293</created>
@@ -579,19 +623,26 @@
       <option name="project" value="LOCAL" />
       <updated>1531899966111</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="代码中自定义bean">
+      <created>1531910112451</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531910112451</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15276000" />
+    <option name="totallyTimeSpent" value="18192000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="352" y="382" width="1346" height="688" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50226927" side_tool="true" weight="0.439523" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.07931571" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.07715582" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -599,9 +650,9 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4977307" visible="true" weight="0.028248588" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4977307" visible="true" weight="0.34412265" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32993197" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32879046" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
@@ -610,7 +661,7 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.75340396" weight="0.21465077" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.11394558" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2511664" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14145234" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32980332" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -666,7 +717,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加xml解析" />
     <MESSAGE value="删除其他module中的SpingBootControllerApplication类以及配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除其他module中的SpingBootControllerApplication类以及配置" />
+    <MESSAGE value="代码中自定义bean" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码中自定义bean" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -700,8 +752,7 @@
         <state relative-caret-position="275">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -880,24 +931,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/SpringBootControllerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-common/mvnw">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/config/BeanConfigService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="125">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#359#368#0" expanded="true" />
@@ -905,10 +945,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/SpringBootControllerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="157">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="19" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#628#629#0" expanded="true" />
@@ -921,6 +971,18 @@
             <element signature="e#1130#1131#0" expanded="true" />
             <element signature="e#1371#1372#0" expanded="true" />
             <element signature="e#1410#1411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/test/java/com/zy/jsy/springboot/controller/HelloControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
           </folding>
         </state>
       </provider>

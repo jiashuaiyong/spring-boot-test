@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 /**
  * springBoot 测试控制器
@@ -60,8 +61,8 @@ public class HelloController {
      * @return
      */
     @RequestMapping("beanTest")
-    public String beanTest(){
-        return String.valueOf(rewardList.get(0));
+    public List beanTest(){
+        return rewardList;
     }
 
 }
