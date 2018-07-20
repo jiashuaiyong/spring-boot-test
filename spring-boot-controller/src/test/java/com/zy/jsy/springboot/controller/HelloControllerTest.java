@@ -108,7 +108,11 @@ public class HelloControllerTest {
 
         Sheet sheet = workbook.getSheetAt(0);
 
+       /* sheet.setColumnWidth(1, 31 * 256);//设置第一列的宽度是31个字符宽度*/
+
         Row row = sheet.createRow(0);
+
+        row.setHeightInPoints(50);//设置行的高度是50个点
 
         Cell cell = row.createCell(0);
 
