@@ -4,12 +4,12 @@ import com.zy.jsy.springboot.service.LanguageService;
 import com.zy.jsy.springboot.service.ValidateService;
 import com.zy.jsy.springbootcommon.contants.Constants;
 import com.zy.jsy.springbootcommon.exception.AppRuntimeException;
-import com.zy.jsy.springbootcommon.utils.DV;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import req.UsernameReq;
 
+import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -21,7 +21,11 @@ import java.util.List;
 public class HelloController {
 
     @Autowired
-    private LanguageService languageService;
+    private LanguageService languageServiceImpl;
+    @Resource(name = "chineseLanguageService")
+    private LanguageService chineseLanguageService;
+    @Autowired
+    private LanguageService englishLanguageService;
     @Autowired
     private HashMap<Integer, Integer> rewardMap;
     @Autowired
@@ -50,7 +54,7 @@ public class HelloController {
      */
     @RequestMapping("/languageCount")
     public String languageCount() {
-        return languageService.queryLanguageCount();
+        return languageServiceImpl.queryLanguageCount();
     }
 
     /**
@@ -89,4 +93,26 @@ public class HelloController {
             return "未捕获的异常";
         }
     }
+
+    /**
+     * switch表达式后面的数据类型只支持byte,short,char,int四种整形类型、枚举类型和java.lang.String类型(jdk1.7之后才支持)
+     */
+    @RequestMapping("switch")
+    public String switchTest(String languageType) {
+        String languageName;
+        switch (languageType) {
+            case "1":
+                languageName = chineseLanguageService.getLanguage();
+                break;
+            case "2":
+                languageName = englishLanguageService.getLanguage();
+                break;
+            default:
+                languageName = "no";
+                break;
+        }
+        return languageName;
+
+    }
+
 }

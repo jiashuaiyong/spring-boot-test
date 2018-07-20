@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="450e677d-f505-4232-bfdc-d76c383cf314" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-controller/src/main/java/req/UsernameReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/impl/ChineseLanguageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/impl/EnglishLanguageServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-controller/src/test/java/com/zy/jsy/springboot/controller/HelloControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-controller/src/test/java/com/zy/jsy/springboot/controller/HelloControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/ValidateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/ValidateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/LanguageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/LanguageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/impl/LanguageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/impl/LanguageServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/spring-boot-common/target/" />
@@ -24,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="82" column="38" lean-forward="true" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+            <state relative-caret-position="397">
+              <caret line="111" column="22" lean-forward="true" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#880#881#0" expanded="true" />
@@ -42,6 +43,24 @@
                 <element signature="e#1626#1627#0" expanded="true" />
                 <element signature="e#1659#1660#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Resource.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8/src.zip!/javax/annotation/Resource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5">
+              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zy/jsy/springbootcommon/contants/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -73,11 +92,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ValidateService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LanguageService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/LanguageService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnglishLanguageServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/impl/EnglishLanguageServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChineseLanguageServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/impl/ChineseLanguageServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidateService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/ValidateService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+            <state relative-caret-position="226">
+              <caret line="26" column="54" lean-forward="true" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,47 +155,6 @@
                 <element signature="e#557#558#0" expanded="true" />
                 <element signature="e#638#639#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppRuntimeException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zy/jsy/springbootcommon/exception/AppRuntimeException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3197" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BeanConfigService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/config/BeanConfigService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#359#368#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpringBootControllerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/SpringBootControllerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/main/resources/application-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -173,9 +192,6 @@
       <list>
         <option value="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/spring-boot-domain/src/main/java/com/zy/jsy/springbootdomain/contants/Constants.java" />
-        <option value="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zy/jsy/springbootcommon/contants/Constants.java" />
-        <option value="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/LanguageService.java" />
-        <option value="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/impl/LanguageServiceImpl.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-service/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-dao/pom.xml" />
@@ -187,9 +203,16 @@
         <option value="$PROJECT_DIR$/spring-boot-controller/src/main/java/req/UserNamereq.java" />
         <option value="$PROJECT_DIR$/spring-boot-controller/src/main/java/req/UsernameReq.java" />
         <option value="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zy/jsy/springbootcommon/utils/DV.java" />
-        <option value="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/spring-boot-controller/src/test/java/com/zy/jsy/springboot/controller/HelloControllerTest.java" />
         <option value="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/ValidateService.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zy/jsy/springbootcommon/contants/Constants.java" />
+        <option value="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/LanguageService.java" />
+        <option value="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/impl/LanguageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/impl/Chinese.java" />
+        <option value="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/impl/ChineseLanguageServieImpl.java" />
+        <option value="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/impl/EnglishLanguageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/impl/ChineseLanguageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java" />
       </list>
     </option>
   </component>
@@ -354,6 +377,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="req" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -445,6 +477,16 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-boot-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -496,7 +538,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HelloControllerTest.annotation">
+  <component name="RunManager" selected="Spring Boot.SpringBootControllerApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -612,7 +654,7 @@
       <updated>1531886504053</updated>
       <workItem from="1531886507919" duration="2326000" />
       <workItem from="1531890124754" duration="5827000" />
-      <workItem from="1531897547749" duration="22873000" />
+      <workItem from="1531897547749" duration="26041000" />
     </task>
     <task id="LOCAL-00001" summary="增加xml解析">
       <created>1531899552293</created>
@@ -649,7 +691,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531986635727</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="增加自定义注解">
+      <created>1532000723763</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1532000723763</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -685,7 +734,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31026000" />
+    <option name="totallyTimeSpent" value="34194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -701,7 +750,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4977307" weight="0.44463372" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4977307" visible="true" weight="0.11754685" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32879046" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -709,10 +758,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.75340396" visible="true" weight="0.38160136" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.75340396" weight="0.20954004" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.11394558" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2322239" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32980332" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -838,6 +887,8 @@
           <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -909,30 +960,6 @@
     <entry file="file://$PROJECT_DIR$/spring-boot-common/.gitignore" />
     <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/controller/HelloController.java" />
     <entry file="file://$PROJECT_DIR$/spring-boot-domain/src/main/java/com/zy/jsy/springbootdomain/contants/Constants.kt" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zy/jsy/springbootcommon/contants/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/LanguageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/impl/LanguageServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.0.3.RELEASE/spring-boot-starter-parent-2.0.3.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1042,36 +1069,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zy/jsy/springbootcommon/utils/DV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="82" column="38" lean-forward="true" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1448#1449#0" expanded="true" />
-            <element signature="e#1503#1504#0" expanded="true" />
-            <element signature="e#1626#1627#0" expanded="true" />
-            <element signature="e#1659#1660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/main/java/req/UsernameReq.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1081,6 +1078,33 @@
             <element signature="e#236#237#0" expanded="true" />
             <element signature="e#284#285#0" expanded="true" />
             <element signature="e#324#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/ValidateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="26" column="54" lean-forward="true" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zy/jsy/springbootcommon/contants/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zy/jsy/springbootcommon/utils/DV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1097,12 +1121,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/ValidateService.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/impl/LanguageServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+        <state relative-caret-position="147">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/LanguageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/impl/EnglishLanguageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/impl/ChineseLanguageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8/src.zip!/javax/annotation/Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="111" column="22" lean-forward="true" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+            <element signature="e#1448#1449#0" expanded="true" />
+            <element signature="e#1503#1504#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+            <element signature="e#1659#1660#0" expanded="true" />
           </folding>
         </state>
       </provider>
