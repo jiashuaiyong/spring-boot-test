@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="450e677d-f505-4232-bfdc-d76c383cf314" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/impl/ChineseLanguageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/impl/EnglishLanguageServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/LanguageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/LanguageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/impl/LanguageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-service/src/main/java/com/zy/jsy/springboot/service/impl/LanguageServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/spring-boot-common/target/" />
@@ -28,8 +23,8 @@
       <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="111" column="22" lean-forward="true" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+            <state relative-caret-position="322">
+              <caret line="96" column="7" lean-forward="true" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#880#881#0" expanded="true" />
@@ -654,7 +649,7 @@
       <updated>1531886504053</updated>
       <workItem from="1531886507919" duration="2326000" />
       <workItem from="1531890124754" duration="5827000" />
-      <workItem from="1531897547749" duration="26041000" />
+      <workItem from="1531897547749" duration="26687000" />
     </task>
     <task id="LOCAL-00001" summary="增加xml解析">
       <created>1531899552293</created>
@@ -698,7 +693,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532000723763</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="多接口实现">
+      <created>1532053660174</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1532053660174</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -734,7 +736,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34194000" />
+    <option name="totallyTimeSpent" value="34840000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -820,7 +822,8 @@
     <MESSAGE value="代码中自定义bean" />
     <MESSAGE value="增加单元测试" />
     <MESSAGE value="增加自定义注解" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加自定义注解" />
+    <MESSAGE value="多接口实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="多接口实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1177,8 +1180,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-controller/src/main/java/com/zy/jsy/springboot/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="111" column="22" lean-forward="true" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+        <state relative-caret-position="322">
+          <caret line="96" column="7" lean-forward="true" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#880#881#0" expanded="true" />
