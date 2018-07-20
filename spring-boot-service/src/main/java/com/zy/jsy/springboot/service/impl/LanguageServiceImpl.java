@@ -16,4 +16,9 @@ public class LanguageServiceImpl implements LanguageService {
         Field[] fields=language.getDeclaredFields();
         return String.valueOf(fields.length);
     }
+
+    @Override
+    public String getLanguage() {
+        return null;
+    }
 }
