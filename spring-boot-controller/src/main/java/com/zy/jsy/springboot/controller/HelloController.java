@@ -4,11 +4,14 @@ import com.zy.jsy.springboot.service.LanguageService;
 import com.zy.jsy.springboot.service.ValidateService;
 import com.zy.jsy.springbootcommon.contants.Constants;
 import com.zy.jsy.springbootcommon.exception.AppRuntimeException;
+import com.zy.jsy.springbootdomain.result.UserResult;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import req.UsernameReq;
 
+import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -30,6 +33,8 @@ public class HelloController {
     private HashMap<Integer, Integer> rewardMap;
     @Autowired
     private ArrayList<Integer> rewardList;
+    @Value("${userName}")
+    private String userName;
 
 
     @RequestMapping("/hello")
@@ -62,7 +67,7 @@ public class HelloController {
      *
      * @return
      */
-    @RequestMapping("xmlTest")
+    @RequestMapping("/xmlTest")
     public String xmlTest() {
         return String.valueOf(rewardMap.get(1));
     }
@@ -72,7 +77,7 @@ public class HelloController {
      *
      * @return
      */
-    @RequestMapping("beanTest")
+    @RequestMapping("/beanTest")
     public List beanTest() {
         return rewardList;
     }
@@ -80,7 +85,7 @@ public class HelloController {
     /**
      * 自定义注解
      */
-    @RequestMapping("userName")
+    @RequestMapping("/userName")
     public String userName(String userName) {
         try {
             UsernameReq req = new UsernameReq();
@@ -97,7 +102,7 @@ public class HelloController {
     /**
      * switch表达式后面的数据类型只支持byte,short,char,int四种整形类型、枚举类型和java.lang.String类型(jdk1.7之后才支持)
      */
-    @RequestMapping("switch")
+    @RequestMapping("/switch")
     public String switchTest(String languageType) {
         String languageName;
         switch (languageType) {
@@ -112,7 +117,24 @@ public class HelloController {
                 break;
         }
         return languageName;
-
     }
+
+    @RequestMapping("/userNameTest")
+    /*@PostConstruct*/
+    public String userNameTest() {
+        return userName;
+    }
+
+    @RequestMapping("/userInfo")
+    private String lombokTest() {
+        UserResult result = new UserResult();
+
+        result.setUserName("jsy");
+        result.setAddress("xiaohongmen");
+        result.setUserPhoneNumber("152 0000 0000");
+
+        return result.toString();
+    }
+
 
 }

@@ -50,6 +50,11 @@
         </dependency>
 
         <dependency>
+            <groupId>com.zy.jsy</groupId>
+            <artifactId>spring-boot-domain</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
         </dependency>
