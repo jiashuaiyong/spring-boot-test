@@ -5,13 +5,14 @@ import com.zy.jsy.springboot.service.ValidateService;
 import com.zy.jsy.springbootcommon.contants.Constants;
 import com.zy.jsy.springbootcommon.exception.AppRuntimeException;
 import com.zy.jsy.springbootdomain.result.UserResult;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import req.UsernameReq;
 
-import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -22,6 +23,8 @@ import java.util.List;
  */
 @RestController
 public class HelloController {
+
+    private static final Logger logger = LoggerFactory.getLogger(HelloController.class);
 
     @Autowired
     private LanguageService languageServiceImpl;
@@ -122,6 +125,11 @@ public class HelloController {
     @RequestMapping("/userNameTest")
     /*@PostConstruct*/
     public String userNameTest() {
+        try {
+            int a = 1/0;
+        } catch (Exception e) {
+            logger.error("测试报错 e={}",e);
+        }
         return userName;
     }
 

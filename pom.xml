@@ -28,6 +28,9 @@
 
     <properties>
         <module.version>0.0.1-SNAPSHOT</module.version>
+        <log.path>d:/export/Logs/spring-boot-test/</log.path>
+        <log.info.location>d:/export/Logs/spring-boot-test/</log.info.location>
+
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -84,6 +87,8 @@
 
         </dependencies>
     </dependencyManagement>
+
+
 
 
 </project>
