@@ -5,8 +5,8 @@ import com.zy.jsy.springboot.service.ValidateService;
 import com.zy.jsy.springboot.service.file.FileService;
 import com.zy.jsy.springbootcommon.exception.AppRuntimeException;
 import com.zy.jsy.springbootcommon.utils.DV;
-import org.apache.poi.hssf.usermodel.HSSFCell;
-import org.apache.poi.hssf.usermodel.HSSFRow;
+import lombok.val;
+import lombok.var;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
@@ -22,6 +22,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.util.HashMap;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -35,14 +36,15 @@ public class HelloControllerTest {
 
     @Test
     public void languageCount() {
-        System.out.println("测试结果为："+languageServiceImpl.queryLanguageCount());
+        System.out.println("测试结果为：" + languageServiceImpl.queryLanguageCount());
     }
 
 
-    @DV(nullable = false,minLength = 2,maxLength = 10)
+    @DV(nullable = false, minLength = 2, maxLength = 10)
     private static String userName = "1";
+
     @Test
-    public void annotation(){
+    public void annotation() {
 
 
         try {
@@ -50,7 +52,7 @@ public class HelloControllerTest {
             System.out.println(userName);
         } catch (AppRuntimeException e) {
             System.out.println(e.getErrorMessage());
-        }catch (Exception e) {
+        } catch (Exception e) {
             System.out.println(e);
         }
     }
@@ -58,7 +60,7 @@ public class HelloControllerTest {
     @Test
     //创建一个有数据的excel
 
-    public void WorkTest() throws Exception{
+    public void WorkTest() throws Exception {
 
         String filePath = "D:/workTest1.xls";
         excelPoiServiceImpl.createFile(filePath);
@@ -88,9 +90,8 @@ public class HelloControllerTest {
 
     }
 
-
     @Test
-    public void ExcelTest() throws Exception{
+    public void ExcelTest() throws Exception {
 
         String filePath = "D:/a1.xlsx";
 
@@ -108,7 +109,7 @@ public class HelloControllerTest {
 
         Sheet sheet = workbook.getSheetAt(0);
 
-       /* sheet.setColumnWidth(1, 31 * 256);//设置第一列的宽度是31个字符宽度*/
+        /* sheet.setColumnWidth(1, 31 * 256);//设置第一列的宽度是31个字符宽度*/
 
         Row row = sheet.createRow(0);
 
@@ -120,15 +121,14 @@ public class HelloControllerTest {
 
         workbook.write(out);
         out.close();
-
-
     }
 
-
-
-
-
-
+    @Test
+    public void var() {
+        var var = new HashMap<String, String>();
+        var.put("key","value");
+        System.out.println(var.size());
+    }
 
 
 }

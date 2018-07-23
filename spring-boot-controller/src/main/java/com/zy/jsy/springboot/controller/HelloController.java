@@ -30,7 +30,7 @@ public class HelloController {
     @Autowired
     private LanguageService englishLanguageService;
     @Autowired
-    private HashMap<Integer, Integer> rewardMap;
+    private HashMap<Integer, Integer> rewardMap1;
     @Autowired
     private ArrayList<Integer> rewardList;
     @Value("${userName}")
@@ -69,7 +69,7 @@ public class HelloController {
      */
     @RequestMapping("/xmlTest")
     public String xmlTest() {
-        return String.valueOf(rewardMap.get(1));
+        return String.valueOf(rewardMap1.get(1));
     }
 
     /**
